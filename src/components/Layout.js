@@ -102,7 +102,7 @@ export default function Layout({children}) {
                 <Typography 
                 variant='h5'
                 >
-                     My Notes
+                    HABEEB NOTES
                 </Typography>
             </div>
 
