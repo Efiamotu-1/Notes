@@ -26,10 +26,10 @@ function App() {
     <Router>
       <Layout>
       <Switch>
-        <Route exact path="/">
+        <Route  path="/notes">
           <Notes />
         </Route>
-        <Route path="/create">
+        <Route exact path="/">
           <Create />
         </Route>
       </Switch>

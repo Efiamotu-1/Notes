@@ -53,18 +53,6 @@
       "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took\nLorem Ipsum is simply dummy text of the printing ",
       "category": "reminders",
       "id": 9
-    },
-    {
-      "title": "mm",
-      "details": "mmm",
-      "category": "reminders",
-      "id": 10
-    },
-    {
-      "title": "just do your homework",
-      "details": "lorem ipsum is dummy text that is used to store placeholder information for incomming information",
-      "category": "money",
-      "id": 12
     }
   ]
 }

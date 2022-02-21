@@ -1,9 +1,11 @@
 import { AppBar, Avatar, Drawer, List, ListItem, ListItemIcon, ListItemText, makeStyles, Toolbar, Typography } from '@material-ui/core'
-import { AddCircleOutlined, Send, SubjectOutlined } from '@material-ui/icons'
+import { AddCircleOutlined, Note, Send, SubjectOutlined } from '@material-ui/icons'
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import { useHistory } from 'react-router-dom'
 import {format} from 'date-fns'
+import Create from '../pages/Create'
+import Notes from '../pages/Notes'
 
 
 
@@ -59,16 +61,18 @@ export default function Layout({children}) {
 
     const menuItems = [
         {
-            icon : <SubjectOutlined color='secondary'/>,
-            text : 'My Notes', 
+            icon : <AddCircleOutlined color='secondary'/>,
+            text : 'Create Notes', 
             path : '/'
         },
 
         {
-            icon : <AddCircleOutlined color='secondary'/>,
-            text : 'Create Notes', 
-            path : '/create'
+            icon : <SubjectOutlined color='secondary'/>,
+            text : 'My Notes', 
+            path : '/notes'
         },
+
+      
     ]
 
   return (
@@ -101,8 +105,9 @@ export default function Layout({children}) {
             <div>
                 <Typography 
                 variant='h5'
+                className={classes.avatar}
                 >
-                    HABEEB NOTES
+                     NOTES
                 </Typography>
             </div>
 
