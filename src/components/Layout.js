@@ -74,20 +74,20 @@ export default function Layout({children}) {
 
       
     ]
-    const action = function () {
-        const time = [ 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 ]
+    // const action = function () {
+    //     const time = [ 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 ]
         
-        if (new Date().getHours() === time[0], time[1], time[2], time[3], time[4], time[5], time[6], time[7], time[8], time[9], time[10], time[11]){
-            return 'Good Morning'
-        } 
-         else if (new Date().getHours() === time[12], time[13], time[14], time[15], time[16], time[17], time[18]) {
-            return 'Good Afternoon'
-        }
-        else if (new Date().getHours() === time[19], time[20], time[21], time[22], time[23]) {
-            return 'Good Evening'
-        }
+    //     if (new Date().getHours() === time[0] || time[1] || time[2] || time[3] || time[4] || time[5] || time[6] || time[7] || time[8] || time[9] || time[10] || time[11]){
+    //         return 'Good Morning'
+    //     } 
+    //      else if (new Date().getHours() === time[12] || time[13] || time[14] || time[15] || time[16] || time[17] || time[18]) {
+    //         return 'Good Afternoon'
+    //     }
+    //     else if (new Date().getHours() === time[19] || time[20] || time[21] || time[22] || time[23]) {
+    //         return 'Good Evening'
+    //     }
 
-    }
+    // }
 
   return (
     <div className={classes.root}>
@@ -103,7 +103,7 @@ export default function Layout({children}) {
                 </Typography>
                 <Typography>
                   
-                  {action()} Welcome Habeeb
+                   Welcome Habeeb
                 </Typography>
                 <Avatar src={passport} className={classes.avatar}/>
             </Toolbar>
