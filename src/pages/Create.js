@@ -88,6 +88,7 @@ export default function Create() {
    label='Note Title' 
   variant='outlined' 
   color='secondary' 
+
   fullWidth
   required
   className={classes.field}
@@ -108,6 +109,7 @@ export default function Create() {
   error={detailsError}
   onChange={(e)=> setDetails(e.target.value)}
   />
+  
   
 <FormControl className={classes.field}>
   <FormLabel>Choose a category</FormLabel>

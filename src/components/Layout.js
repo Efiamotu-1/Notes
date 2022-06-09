@@ -29,7 +29,7 @@ const useStyles = makeStyles({
         },
 
         active : {
-            background : '#f4f4f4'
+            background : 'blue'
         },
 
         appbar : {
@@ -131,6 +131,7 @@ export default function Layout({children}) {
             <List>
                {menuItems.map(item => (
                    <ListItem 
+                   sx={{color : 'white'}}
                    key={item.text}
                    button
                    className={location.pathname == item.path ? classes.active : null}
