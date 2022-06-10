@@ -11,6 +11,7 @@ export default function Notes() {
 
   const [notes, setNotes] = useState([])
 
+
   useEffect(()=>{
   fetch('http://localhost:8000/notes')
   .then(res => res.json())
