@@ -8,16 +8,16 @@ import React from 'react'
     avatar: {
         backgroundColor : (note) => {
             if (note.category == 'work') {
-                return yellow[800]
+                return yellow[500]
             }
             if (note.category == 'todos') {
-                return green[600]
+                return green[400]
             }
             if (note.category == 'money') {
                 return pink[500]
             }
 
-            return blue[700]
+            return blue[600]
         }
     }
  })
